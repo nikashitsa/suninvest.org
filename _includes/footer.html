@@ -1,0 +1,8 @@
+<footer class="footer">
+  <p>{{ site.title }} &copy; {{ site.time | date: '%Y' }}</p>
+</footer>
+<script src="{{ "/assets/js/particles.js" | prepend: site.baseurl }}"></script>
+<script src="{{ "/assets/js/sweet-scroll.js" | prepend: site.baseurl }}"></script>
+<script src="{{ "/assets/js/main.js" | prepend: site.baseurl }}?{{site.time | date: '%s%N'}}"></script>
+
+{% include google-analytics.html %}

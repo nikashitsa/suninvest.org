@@ -1,0 +1,8 @@
+# Site settings
+title: Suninvest
+description: Suninvest D.O.O. Official Website
+email: support@suninvest.org
+
+# Google-analytics
+google-analytics:
+  id: "UA-113235994-1"
