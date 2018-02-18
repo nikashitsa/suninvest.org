@@ -6,3 +6,8 @@ email: support@suninvest.org
 # Google-analytics
 google-analytics:
   id: "UA-113235994-1"
+
+compress:
+  js: '/assets/js/*.js'
+  css: '/assets/styles/*.css'
+  img: '/assets/**/*.{jpg,png}'
