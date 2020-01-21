@@ -15,7 +15,13 @@
 }
 
 .user-projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
   margin: 20px auto;
+  @media only screen and (min-width: $cut) {
+    flex-wrap: nowrap;
+  }
   img {
     max-width: 100%;
     height: auto;
@@ -41,34 +47,15 @@
 }
 
 .contents-right {
+  width: 100%;
   @media only screen and (min-width: $cut) {
-    float: right;
+    width: 250px;
     margin-top: -5%;
-    width: 48%;
-  }
-}
-.images-right {
-  @media only screen and (min-width: $cut) {
-    float: right;
-    width: 48%;
-  }
-  img {
-    @media only screen and (min-width: $cut) {
-      float: right;
-    }
   }
 }
 
 .images-left {
-  @media only screen and (min-width: $cut) {
-    float: left;
-    width: 48%;
-  }
-  img {
-    @media only screen and (min-width: $cut) {
-      float: left;
-    }
-  }
+  margin-right: 80px;
 }
 
 .project-link {
