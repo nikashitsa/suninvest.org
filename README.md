@@ -11,5 +11,5 @@ open http://localhost/
 #### Deploy
 ```
 JEKYLL_ENV=production bundle exec jekyll build
-docker-compose -f docker-compose.yml -f docker-compose.prod.yml up -d
+docker-compose -f docker-compose.yml -f docker-compose.prod.yml up -d --build
 ```
